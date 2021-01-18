@@ -1,0 +1,79 @@
+#hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(assets/sea.jpg);
+  background-size: cover;
+  height: 90vh;
+}
+.ico {
+  font-size: 7rem !important;
+  color: #007bff !important;
+}
+body {
+  overflow-x: hidden;
+}
+#sec2 {
+  height: 60vh;
+}
+footer {
+  height: 30vh;
+}
+.rounder {
+  border-radius: 100%;
+}
+.sekilip {
+  background-image: url(assets/iphone.jpg) !important;
+  height: 60vh;
+}
+.sekilkod {
+  background-image: url(assets/kod.jpg) !important;
+  height: 60vh;
+}
+.sekilusaq {
+  background-image: url(assets/usaq.jpg) !important;
+  height: 60vh;
+}
+#sec3 {
+  height: 60vh;
+}
+@media only screen and (max-width: 991px) {
+  #sec3 {
+    height: 60vh;
+    margin-top: 170px;
+    position: relative;
+  }
+  #sec2 {
+    height: 60vh;
+    margin-top: 50px;
+    position: relative;
+  }
+  .yazi {
+    width: 300px !important;
+  }
+  #sec5 {
+    margin-top: 200px;
+    position: relative;
+  }
+  body {
+    margin-right: 0px !important;
+  }
+}
+@media only screen and (max-width: 479px) {
+  #sec3 {
+    height: 60vh;
+    margin-top: 180px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #sec3 {
+    height: 60vh;
+    margin-top: 260px;
+  }
+  #sec5 {
+    height: 60vh;
+    margin-top: 330px;
+    position: relative;
+  }
+  footer {
+    margin-top: 190vh;
+  }
+}
