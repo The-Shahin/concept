@@ -21,15 +21,15 @@ footer {
   border-radius: 100%;
 }
 .sekilip {
-  background-image: url(assets/iphone.jpg) !important;
+  background-image: url(..assets/iphone.jpg) !important;
   height: 60vh;
 }
 .sekilkod {
-  background-image: url(assets/kod.jpg) !important;
+  background-image: url(..assets/kod.jpg) !important;
   height: 60vh;
 }
 .sekilusaq {
-  background-image: url(assets/usaq.jpg) !important;
+  background-image: url(..assets/usaq.jpg) !important;
   height: 60vh;
 }
 #sec3 {
